@@ -11,7 +11,7 @@ async function getPhotos(q = '') {
         min_height: 200,
         safesearch: true,
         image_type: 'photo',
-        key: process.env.REACT_APP_PIXABAY_KEY,
+        key: '26356391-8edfd9d4602d09a60d5d366bd',
     }
   });
   return res.data.hits;
